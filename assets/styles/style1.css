@@ -1,15 +1,79 @@
-*{
-    font-family: cursive;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    transform: translate(-25rem, 10rem);
+}
+
+.principalImage {
+   height: 30vh;
+   width: 98vw;
+
+}
+
+.textLogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 50px;
+    z-index: 1;
+
+}
+
+.titleContainer {
+    background-color: rebeccapurple;
+    position: absolute;
+    display: block;
+}
+
+.titlePage {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+
 }
 
 
-article>p{
+.nav {
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 25%;
+    height: 200px;
+    display: block;
+    position: relative;
+}
+
+.infoEvent {
+    background-color: forestgreen;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 70%;
+    height: 200px;
+    display: block;
+    position: relative;
+  
+}
+
+article>p {
     font-size: 10px;
 }
 
-article>h4
-{
+article>h4 {
     font-style: italic;
-
 }
