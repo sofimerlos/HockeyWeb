@@ -1,0 +1,15 @@
+*{
+    font-family: cursive;
+    margin: 0;
+}
+
+
+article>p{
+    font-size: 10px;
+}
+
+article>h4
+{
+    font-style: italic;
+
+}
