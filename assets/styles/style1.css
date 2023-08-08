@@ -1,79 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
 }
 
-.container {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-
+header{
+  background-image: url("../images/design1_image1.jpg");
+  height: 35vh;
+  width: 100%;
+  position: relative;
 }
 
-.logo {
-    width: 100px;
-    position: absolute;
-    transform: translate(-25rem, 10rem);
+.logo{
+  width: 150px;
+  position: absolute;
+  transform: translate(55rem, 10rem);
+  z-index: 1;
 }
-
-.principalImage {
-   height: 30vh;
-   width: 98vw;
-
-}
-
 .textLogo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 50px;
-    z-index: 1;
-
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 50px;
+  z-index: 3;
 }
-
-.titleContainer {
-    background-color: rebeccapurple;
-    position: absolute;
-    display: block;
-}
-
 .titlePage {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
 }
-
-
+a {
+  display: block;
+  height: 70px;
+  font-size: 12px;
+}
 .nav {
-    background-color: aqua;
-    box-sizing: border-box;
-    margin: 5px;
-    width: 25%;
-    height: 200px;
-    display: block;
-    position: relative;
+  display: inline-block;
+  position: relative;
+  width: 15%;
+  height: 300px;
+  border: 5px solid white;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.homeLink {
+  text-decoration: none;
+}
+.aboutLink {
+  text-decoration: none;
+}
+.contactLink {
+  text-decoration: none;
 }
 
 .infoEvent {
-    background-color: forestgreen;
-    box-sizing: border-box;
-    margin: 5px;
-    width: 70%;
-    height: 200px;
-    display: block;
-    position: relative;
-  
+  display: inline-block;
+  position: absolute;
+  width: 85%;
+  height: 340px;
+  border: 5px solid white;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+article > p {
+  padding-bottom: 30px;
+  font-size: 15px;
+  text-indent: 18px;
+}
+article > h4 {
+  font-style: italic;
+  font-size: 15px;
 }
 
-article>p {
-    font-size: 10px;
+.parrafoAbout {
+  font-size: 12px;
+  text-indent: 18px;
+  padding-bottom: 40px;
+  width: 80%;
 }
-
-article>h4 {
-    font-style: italic;
+.parrafoContact {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+#anchorInline {
+  display: inline;
 }
