@@ -175,10 +175,7 @@ h5 {
     display: inline;
 }
 
-/*table, tr, th, td{
-    border: 8px solid black;
-    border-collapse: collapse; 
-}*/
+
 th {
     font-weight: bold;
     font-size: 25px;
@@ -192,26 +189,30 @@ tr {
 }
 
 .row_color1 {
-    background-color: rgb(196, 227, 248);
+    background-color: rgb(208, 236, 255);
 }
 
 .row_color2 {
-    background-color: rgb(213, 247, 233);
+    background-color: rgb(252, 249, 249);
 }
 
 .first_column {
     text-align: center;
 }
 
-/*
-table,tr, th,td{
-    border: 8px solid black;
+
+table,
+tr,
+th,
+td {
+    /* border: 2px solid rgb(200, 62, 62);*/
     border-collapse: collapse;
 }
+
 caption {
     caption-side: bottom;
     text-align: center;
-}*/
+}
 
 .end_game1 {
     margin-bottom: 20px;
@@ -247,8 +248,167 @@ p a {
     color: blue;
 }
 
+
+/*///////REGISTRAION FORM////////////*/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid rgb(190, 186, 186);
+    padding: 0 15px 10px 15px;
+    margin-bottom: 30px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+legend {
+    padding: 10px;
+    color: rgb(79, 75, 75);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 22px;
+    outline: none;
+    padding: 3px 10px;
+}
+
+input:focus {
+    background-color: rgb(176, 227, 185);
+}
+
+.personal_info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info_div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.info_div label {
+    display: flex;
+    width: 33%;
+}
+
+.info_div input {
+    display: flex;
+    width: 62%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.address {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+
+.address label {
+    display: flex;
+    width: 16.5%;
+}
+
+.address input {
+    display: flex;
+    width: 81%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.info_gender {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.info_gender label {
+    width: 33%;
+}
+
+
+select {
+    font-size: 22px;
+    color: rgb(79, 75, 75);
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+.flex_baround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign_info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sign_info input {
+    border: none;
+    border-bottom: 1.5px solid black;
+}
+
+input[type=checkbox] {
+    /*agranda el checbox*/
+    transform: scale(1.2);
+}
+
+input[type=radio] {
+    transform: scale(1.2);
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+iframe {
+    box-shadow: 0px 0px 10px rgb(134, 121, 128);
+    border-radius: 10px;
+    width: 260px;
+    height: 270px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(41, 163, 100);
+    width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(39, 44, 41);
+    box-shadow: 0px 0px 15px rgb(3, 71, 37);
+    margin-bottom: 25px;
+}
+
+
 /*/////////////////////////////////////*/
 footer {
     background-color: brown;
     min-height: 5vh;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/*/////////MEDIA QUERYS//////////////////////*/
